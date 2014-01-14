@@ -8,10 +8,17 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int a = 10, b = 9;
+            int kq = sum(a, b);
+
         }
         public int sum(int a, int b)
         {
             return a + b;
+        }
+        public int phepTru(int a, int b)
+        {
+            return a - b;
         }
     }
 }
