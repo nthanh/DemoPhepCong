@@ -13,5 +13,9 @@ namespace ConsoleApplication1
         {
             return a + b;
         }
+        public int PheoTru(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
