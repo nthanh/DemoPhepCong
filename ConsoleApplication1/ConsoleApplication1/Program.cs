@@ -6,16 +6,22 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
-        public int sum(int a, int b)
+         public int sum(int a, int b)
         {
             return a + b;
         }
         public int PheoTru(int a, int b)
         {
-            return a + b;
+            return a - b;
         }
+        public void Xuat()
+        {
+            Console.WriteLine("Xuat du lieu");
+        }
+        static void Main(string[] args)
+        {
+        }
+       
+        
     }
 }
