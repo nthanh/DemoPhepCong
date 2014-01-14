@@ -17,5 +17,9 @@ namespace ConsoleApplication1
         {
              Console.WriteLine("Hello");
         }
+         public void hello2()
+        {
+             Console.WriteLine("Hello2");
+        }
     }
 }
